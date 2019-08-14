@@ -1,0 +1,13 @@
+.LangFloatRight{
+    float: right;
+}
+
+.flag-en{
+    background-image: url(../../assets/lang/img/us.svg);
+    background-size: cover;
+}
+
+.flag-ru{
+    background-image: url(../../assets/lang/img/ru.svg);
+    background-size: cover;
+}
