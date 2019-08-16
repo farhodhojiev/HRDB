@@ -1,7 +1,9 @@
 {
   "navbar": {
     "doc": "Documentation",
-    "home": "Home"
+    "home": "Home",
+    "regCompany": "Register Company",
+    "signin": "Sign in"
   },
   "test": "Welcome to React and react-i18next",
   "test2": "test2"

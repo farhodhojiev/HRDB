@@ -11,7 +11,7 @@ import { useTranslation } from 'react-i18next';
 
 
 const Lang = (state) => {
-    const { t, i18n } = useTranslation();
+    const { i18n } = useTranslation();
 
     const [anchorEl, setAnchorEl] = React.useState(null);
 
