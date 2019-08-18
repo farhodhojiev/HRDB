@@ -3,6 +3,7 @@ import "./App.css"
 import Lang from '../components/language/language';
 import Home from '../components/home/home';
 import Doc from '../components/doc/doc'
+import Cookie from '../components/cookie/cookie'
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 import { useTranslation } from 'react-i18next';
@@ -44,6 +45,7 @@ function App() {
                     </div>
                     <div style={emptyDiv}></div>
                     <Lang />
+                    <Cookie />
                     <Route exact path="/" component={Home} />
                     <Route path="/doc" component={Doc} />
                 </div>

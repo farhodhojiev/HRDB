@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "HRDB App",
+  "name": "Human Resource Database",
   "icons": [
     {
       "src": "favicon.ico",

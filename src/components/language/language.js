@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./language.css"
 
 import { connect } from 'react-redux';
@@ -21,7 +21,20 @@ const Lang = (state) => {
 
     function handleClose() {
         setAnchorEl(null);
+        // save language state to localStorage
+        localStorage.setItem("locale", i18n.language)
     }
+
+    //load language from previous change
+    //second argument for run once
+    useEffect(() => {
+        let l='en';
+        if(localStorage.getItem('locale')){
+            l=localStorage.getItem('locale');
+        }
+        i18n.changeLanguage(l);
+        state.onChangeLanguage(l);
+    }, [i18n, state]);
 
     let langButton
     if(state.lang==='en'){
@@ -40,8 +53,6 @@ const Lang = (state) => {
                 <MenuItem onClick={() => {state.onChangeLanguage('en'); i18n.changeLanguage('en'); handleClose()}}><span className="flag-en">&ensp;&ensp;&ensp;&ensp;&ensp;</span>&nbsp;English</MenuItem>
                 <MenuItem onClick={() => {state.onChangeLanguage('ru'); i18n.changeLanguage('ru'); handleClose()}}><span className="flag-ru">&ensp;&ensp;&ensp;&ensp;&ensp;</span>&nbsp;Русский</MenuItem>
             </Menu>
-            {/* <h1>{state.lang}</h1>
-            {t('test')} */}
         </div>
     );
 }

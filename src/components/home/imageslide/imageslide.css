@@ -1,0 +1,101 @@
+.slider {
+    width: 100%;
+    height: 500px;
+}
+.slider-text-wrapper {
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+}
+.slider-img-wrapper {
+    display: inline-block;
+    height: 100%;
+    width: 70%;
+}
+.textSlide {
+    /* i do not why, but it was very hard */
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #6c3;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.imgSlide {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2.5s;
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .2}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .2}
+    to {opacity: 1}
+}
+.dotSlideCenter{
+    position: relative;
+    text-align: center;
+    top: -30px;
+}
+.dotSlide{
+    cursor: pointer;
+    height: 5px;
+    width: 35px;
+    margin: 0 4px;
+    background-color: #DDD;
+    /* border-radius: 50%; */
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dotSlide:hover, .dotSlide.active {
+    background-color: #6c3;
+}
+
+.next,.prev{
+    position: absolute;
+    cursor: pointer;
+    top: 300px;
+    padding: 20px;
+    background-color: #DDD;
+}
+.next {
+    right: 0;
+    border-radius: 5px 0 0 5px;
+}
+.prev {
+    left: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.next:hover, .prev:hover{
+    background-color: #6c3;
+}
+
+@media screen and (max-width:750px){
+    .slider {
+        width: 100%;
+        height: 600px;
+    }
+    .slider-text-wrapper {
+        display: inline-block;
+        height: 30%;
+        width: 100%;
+    }
+    .slider-img-wrapper {
+        display: inline-block;
+        height: 70%;
+        width: 100%;
+    }
+}

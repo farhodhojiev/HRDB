@@ -1,0 +1,32 @@
+.cookieDialog{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #6c3;
+    border: 3px solid green;
+    padding: 20px;
+}
+
+.cookieText {
+    /* i do not why, but it was very hard */
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+}
+
+.cookieMoreInfo{
+    color: #4B8EE7;
+    text-decoration: none;
+}
+
+.cookieButton{
+    float: right;
+}
