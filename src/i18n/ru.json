@@ -1,4 +1,8 @@
 {
+  "footer": {
+    "hrdb": "Human Resource database",
+    "text": "© Copyright 2019. Все права защищены."
+  },
   "gc": {
     "ok": "Ок"
   },
@@ -7,6 +11,9 @@
     "home": "Главная",
     "regCompany": "Регистрация компании",
     "signin": "Вход"
+  },
+  "ourclients": {
+    "title": "Наши клиенты"
   },
   "slide": {
     "0": "один",

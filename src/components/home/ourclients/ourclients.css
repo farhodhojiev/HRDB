@@ -1,0 +1,17 @@
+.our-clients{
+    background: rgb(177, 198, 212);
+    padding: 20px;
+    box-shadow: 0 0 5px 5px rgb(177, 198, 212);
+    margin-top: 10px;
+}
+
+.our-clients-title{
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 1.5rem
+}
+
+.our-clients-img{
+    display: inline-block;
+}

@@ -4,6 +4,8 @@ import "./home.css"
 import { useTranslation } from 'react-i18next';
 
 import ImageSlide from './imageslide/imageslide'
+import OurClients from './ourclients/ourclients'
+import Footer from './footer/footer'
 
 function Home() {
     const { t } = useTranslation();
@@ -11,6 +13,8 @@ function Home() {
         <div>
             <ImageSlide />
             {t('test2')}
+            <OurClients />
+            <Footer />
         </div>
     );
 

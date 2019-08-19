@@ -1,4 +1,8 @@
 {
+  "footer": {
+    "hrdb": "Human Resource database",
+    "text": "© Copyright 2019. All rights reserved."
+  },
   "gc": {
     "ok": "Ok"
   },
@@ -7,6 +11,9 @@
     "home": "Home",
     "regCompany": "Register Company",
     "signin": "Sign in"
+  },
+  "ourclients": {
+    "title": "Our clients"
   },
   "slide": {
     "0": "Better sdfsd sdf sdfsdf sdfds",

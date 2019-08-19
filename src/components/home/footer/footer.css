@@ -1,0 +1,26 @@
+.footer-class{
+    background-color: #6c3;
+    opacity:.5;
+    padding: 20px;
+}
+
+.footer-hrdb{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.copyright{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer-logo{
+    /* border: 2px solid white; */
+    /* padding: 5px; */
+    /* filter: grayscale(100%); */
+    /* filter: drop-shadow(2px 2px 4px black); */
+}
