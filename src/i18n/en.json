@@ -1,4 +1,9 @@
 {
+  "download": {
+    "coming": "Coming soon",
+    "title": "Applications",
+    "web": "Web application"
+  },
   "footer": {
     "hrdb": "Human Resource database",
     "text": "© Copyright 2019. All rights reserved."
@@ -14,6 +19,30 @@
   },
   "ourclients": {
     "title": "Our clients"
+  },
+  "plan": {
+    "month": "month",
+    "p1": {
+      "text": "The “Free” plan includes all the platform features.",
+      "title": "Free"
+    },
+    "p2": {
+      "text": "The “Standard” plan includes all the platform features.",
+      "text2": "Possible backup and restore database.",
+      "title": "Standard"
+    },
+    "p3": {
+      "text": "The “Advanced” plan includes all the platform features.",
+      "text2": "Possible backup and restore database.",
+      "text3": "Full technical support.",
+      "title": "Advanced"
+    },
+    "p4": {
+      "contactUs": "Contact us",
+      "contract": "Under contract",
+      "title": "Enterprise"
+    },
+    "title": "Plan"
   },
   "slide": {
     "0": "Better sdfsd sdf sdfsdf sdfds",

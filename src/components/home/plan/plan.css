@@ -1,0 +1,69 @@
+.plan-class{
+    padding: 20px;
+}
+.plan-title{
+    color: #444;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.plan-box{
+    display: inline-block;
+    /* float: left; */
+    width: 240px;
+    height: 200px;
+    border: 1px solid #6c3;
+    margin: 0 10px 10px 10px;
+    padding: 20px;
+}
+
+.plan-green{
+    border-top: 10px solid #6c3;
+}
+
+.plan-blue{
+    border-top: 10px solid #6666FF;
+}
+
+.plan-red{
+    border-top: 10px solid #FF4444;
+}
+
+.plan-gold{
+    border-top: 10px solid gold;
+}
+
+.plan-box-content{
+    position: relative;
+    float: left;
+    color: #444;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.plan-box-title{
+    text-align: center;
+    font-weight: bold;
+    color: #444;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.plan-contact{
+    border: 1px solid #6c3;
+    color: #6c3;
+    width: 100%;
+    text-align: center;
+    text-decoration: none!important;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+}
+
+.plan-contact:hover{
+    text-decoration: none!important;
+    background: #6c3;
+    color: white;
+}
+
+.plan-rem-tex-dec{text-decoration: none}
