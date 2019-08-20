@@ -3,7 +3,7 @@ import "./download.css"
 
 import { useTranslation } from 'react-i18next';
 
-import logoImg from '../../../assets/LogoFullSmall.png'
+import logoImg from '../../assets/LogoFullSmall.png'
 import Apple from './apple.png'
 import Google from './google.png'
 
@@ -12,7 +12,7 @@ function Download() {
     const { t } = useTranslation();
 
     return (
-        <div className="download-class">
+        <div className="download-class" id="application">
             <div className="download-title">{t('download.title')}</div>
             <div className="download-text">
                 <div className="download-web">{t('download.web')}</div>

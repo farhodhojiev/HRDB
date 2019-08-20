@@ -45,7 +45,7 @@ function ImageSlide() {
     });
 
     return (
-        <div className="slider">
+        <div className="slider" id="slider">
             {/* text part */}
             <div className="slider-text-wrapper">
                 <div className="textSlide fade">{t('slide.' + state.imgIndex)}</div>

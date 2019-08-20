@@ -12,10 +12,9 @@
     "ok": "Ok"
   },
   "navbar": {
-    "doc": "Documentation",
+    "app": "Application",
     "home": "Home",
-    "regCompany": "Register Company",
-    "signin": "Sign in"
+    "signupin": "Sign up / Sign in"
   },
   "ourclients": {
     "title": "Our clients"
@@ -51,7 +50,5 @@
     "3": "four",
     "next": "Next",
     "prev": "Previous"
-  },
-  "test": "Welcome to React and react-i18next",
-  "test2": "test2"
+  }
 }

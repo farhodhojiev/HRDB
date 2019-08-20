@@ -8,8 +8,6 @@
     position: fixed;
     width: 100%;
     height: 100px;
-    /* background: blue; */
-    /* padding: 0 20px; */
     color: #fff;
 }
 .logo{
@@ -22,12 +20,13 @@
     line-height: 100px;
     padding-right: 20px;
 }
-.menu a{
+.menu span{
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     padding: 0 10px;
     transition: 0.4s;
+    cursor: pointer;
 }
 .show-menu-btn,.hide-menu-btn{
     transition: 0.4s;
@@ -54,6 +53,16 @@
     z-index: -1111;
 }
 
+.enter-register{
+    border: 1px solid green;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.enter-register:hover{
+    background: #6c3;
+}
+
 @media screen and (max-width:850px){
     .show-menu-btn,.hide-menu-btn{
         display: block;
@@ -70,9 +79,10 @@
         line-height: normal;
         transition: 0.7s;
     }
-    .menu a{
+    .menu span{
         display: block;
         padding: 9px;
+        cursor: pointer;
     }
     .hide-menu-btn{
         position: absolute;
@@ -81,6 +91,13 @@
     }
     #chk:checked ~ .menu{
         right: 0;
+    }
+    .enter-register{
+        display: block;
+        margin: 10px 20px 10px 20px;
+    }
+    .enter-register:hover{
+        background: #6b3;
     }
 }
 
