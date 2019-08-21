@@ -8,7 +8,7 @@ function Plan() {
     const { t } = useTranslation();
 
     return (
-        <div className="plan-class">
+        <div className="plan-class"id="plan">
             <div className="plan-title">{t('plan.title')}</div>
             <div className="plan-box plan-green">
                 <div className="plan-box-content">

@@ -9,6 +9,7 @@
     width: 100%;
     height: 100px;
     color: #fff;
+    z-index: 9;
 }
 .logo{
     line-height: 100px;
@@ -41,7 +42,7 @@
 .show-menu-btn i{
     line-height: 100px;
 }
-.menu a:hover,
+.menu span:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover{
     color: green;
@@ -63,14 +64,14 @@
     background: #6c3;
 }
 
-@media screen and (max-width:850px){
+@media screen and (max-width:950px){
     .show-menu-btn,.hide-menu-btn{
         display: block;
     }
     .menu{
         position: fixed;
         width: 100%;
-        height: 120px;
+        height: 190px;
         background: #6c3;
         right: -100%;
         top: 0;

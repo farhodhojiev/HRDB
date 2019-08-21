@@ -11,9 +11,16 @@
   "gc": {
     "ok": "Ok"
   },
+  "info": {
+    "text": "Human Resource database -  is a new software that will change the principle of employee resource accounting. Everything is clear and intuitive which even a user far from this will understand.",
+    "text2": "Human Resource database - is a free product with all the features without any restrictions, we will also consider all your wishes in fixing and adding new features (even if you use the free version and this does not contradict our policies).",
+    "title": "To customers"
+  },
   "navbar": {
     "app": "Application",
     "home": "Home",
+    "info": "To customers",
+    "price": "Price",
     "signupin": "Sign up / Sign in"
   },
   "ourclients": {

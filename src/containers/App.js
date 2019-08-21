@@ -3,9 +3,10 @@ import "./App.css"
 
 import Lang from '../components/language/language';
 import ImageSlide from '../components/imageslide/imageslide'
+import Info from '../components/info/info'
 import Plan from '../components/plan/plan'
-import Donwload from '../components/download/download'
-import OurClients from '../components/ourclients/ourclients'
+import Download from '../components/download/download'
+// import OurClients from '../components/ourclients/ourclients'
 import Footer from '../components/footer/footer'
 import Cookie from '../components/cookie/cookie'
 
@@ -23,8 +24,6 @@ function App() {
 
     function goTo(link){
         document.getElementById(link).scrollIntoView({ behavior: 'smooth', block: 'center' });
-        // window.scrollBy(0, -100);
-        console.log('link')
     }
     return (
         <div>
@@ -43,8 +42,9 @@ function App() {
                     </label>
                     <ul className="menu">
                         <span onClick={()=>goTo('slider')}>{t('navbar.home')}</span>
+                        <span onClick={()=>goTo('info')}>{t('navbar.info')}</span>
+                        <span onClick={()=>goTo('plan')}>{t('navbar.price')}</span>
                         <span onClick={()=>goTo('application')}>{t('navbar.app')}</span>
-                        
                         <a href="http://serv.humresdb.com" className="enter-register"><span>{t('navbar.signupin')}</span></a>
                         <label htmlFor="chk" className="hide-menu-btn">
                             &#10006;
@@ -55,9 +55,10 @@ function App() {
                 <Lang />
                 <Cookie />
                 <ImageSlide />
+                <Info />
                 <Plan />
-                <Donwload />
-                <OurClients />
+                <Download />
+                {/* <OurClients /> */}
                 <Footer />
             </div>
         </div>
