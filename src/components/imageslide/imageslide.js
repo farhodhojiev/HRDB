@@ -3,10 +3,10 @@ import "./imageslide.css"
 
 import { useTranslation } from 'react-i18next';
 
-import img1 from './img001.jpg'
-import img2 from './img002.jpg'
-import img3 from './img003.jpg'
-import img4 from './img004.jpg'
+import img1 from './1.png'
+import img2 from './2.png'
+import img3 from './3.png'
+import img4 from './4.png'
 
 
 function ImageSlide() {

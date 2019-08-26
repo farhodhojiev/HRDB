@@ -16,6 +16,9 @@
     "text2": "Human Resource database - is a free product with all the features without any restrictions, we will also consider all your wishes in fixing and adding new features (even if you use the free version and this does not contradict our policies).",
     "title": "To customers"
   },
+  "main": {
+    "text": "Simple and flexible Employee Management System"
+  },
   "navbar": {
     "app": "Application",
     "home": "Home",
@@ -51,10 +54,10 @@
     "title": "Plan"
   },
   "slide": {
-    "0": "Better sdfsd sdf sdfsdf sdfds",
-    "1": "two",
-    "2": "three",
-    "3": "four",
+    "0": "Easy and flexible configuration, the ability to customize everything",
+    "1": "Branch tree configuration",
+    "2": "Setting up departments and employees",
+    "3": "Presence log, employee monitoring in one place",
     "next": "Next",
     "prev": "Previous"
   }

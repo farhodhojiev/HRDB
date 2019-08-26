@@ -2,6 +2,7 @@ import React from 'react';
 import "./App.css"
 
 import Lang from '../components/language/language';
+import Main from '../components/main/main';
 import ImageSlide from '../components/imageslide/imageslide'
 import Info from '../components/info/info'
 import Plan from '../components/plan/plan'
@@ -41,7 +42,7 @@ function App() {
                         <i>&#8226;&#8226;&#8226;</i>
                     </label>
                     <ul className="menu">
-                        <span onClick={()=>goTo('slider')}>{t('navbar.home')}</span>
+                        <span onClick={()=>goTo('main')}>{t('navbar.home')}</span>
                         <span onClick={()=>goTo('info')}>{t('navbar.info')}</span>
                         <span onClick={()=>goTo('plan')}>{t('navbar.price')}</span>
                         <span onClick={()=>goTo('application')}>{t('navbar.app')}</span>
@@ -53,6 +54,7 @@ function App() {
                 </div>
                 <div style={emptyDiv}></div>
                 <Lang />
+                <Main />
                 <Cookie />
                 <ImageSlide />
                 <Info />

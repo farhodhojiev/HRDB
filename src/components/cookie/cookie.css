@@ -1,25 +1,26 @@
 .cookieDialog{
-    position: absolute;
-    right: 0;
+    position: fixed;
+    left: 0;
     bottom: 0;
-    width: 300px;
-    height: 100px;
-    border-radius: 10px;
-    margin: 20px;
-    background-color: #6c3;
-    border: 3px solid green;
-    padding: 20px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(105, 79, 7);
+    border-top: 3px solid rgb(73, 66, 4);
+    padding: 10px;
+    z-index: 2;
 }
 
 .cookieText {
     /* i do not why, but it was very hard */
-    position: relative;
+    /* position: relative;
     float: left;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-size: 0.8rem;
+    padding: 5px;
 }
 
 .cookieMoreInfo{
@@ -29,4 +30,10 @@
 
 .cookieButton{
     float: right;
+}
+
+@media screen and (max-width:750px){
+    .cookieDialog{
+        height: 120px;
+    }
 }

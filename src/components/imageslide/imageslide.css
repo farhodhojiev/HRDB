@@ -19,7 +19,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #6c3;
+    color: #444;
     font-weight: bold;
     font-size: 1.5rem;
     padding-left: 60px;
@@ -67,7 +67,7 @@
 .next,.prev{
     position: absolute;
     cursor: pointer;
-    top: 300px;
+    top: 500px;
     padding: 20px;
     background-color: #DDD;
 }
