@@ -1,7 +1,9 @@
 .plan-class{
     padding: 20px;
+    text-align: center;
 }
 .plan-title{
+    text-align: left;
     color: #444;
     font-weight: bold;
     padding: 20px;
