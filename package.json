@@ -4,7 +4,7 @@
     "private": true,
     "dependencies": {
         "@material-ui/core": "^4.3.3",
-        "i18next": "^17.0.12",
+        "i18next": "^17.0.13",
         "react": "^16.9.0",
         "react-dom": "^16.9.0",
         "react-i18next": "^10.12.2",

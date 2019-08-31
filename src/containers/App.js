@@ -54,12 +54,17 @@ function App() {
                 </div>
                 <div style={emptyDiv}></div>
                 <Lang />
-                <Main />
                 <Cookie />
+                <Main />
+                <hr className="hr-class" />
                 <ImageSlide />
+                <hr className="hr-class" />
                 <Info />
+                <hr className="hr-class" />
                 <Plan />
+                <hr className="hr-class" />
                 <Download />
+                {/* <hr className="hr-class" /> */}
                 {/* <OurClients /> */}
                 <Footer />
             </div>

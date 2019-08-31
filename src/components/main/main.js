@@ -10,6 +10,7 @@ function Main() {
     return (
         <div className="main-class" id="main">
             <h1>{t("main.text")}</h1>
+            <h2>{t("main.text2")}</h2>
         </div>
     );
 
