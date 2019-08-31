@@ -69,8 +69,9 @@
 .next,.prev{
     position: absolute;
     cursor: pointer;
-    top: 500px;
+    /* top: 500px; */
     padding: 20px;
+    margin-top: 100px;
     background-color: #DDD;
 }
 .next {
@@ -89,16 +90,23 @@
 @media screen and (max-width:750px){
     .slider {
         width: 100%;
-        height: 600px;
+        height: auto;
     }
     .slider-text-wrapper {
         display: inline-block;
-        height: 30%;
+        height: auto;
         width: 100%;
     }
     .slider-img-wrapper {
         display: inline-block;
-        height: 70%;
+        height: auto;
         width: 100%;
+    }
+    .textSlide{
+        padding-left: 0;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        float: none;
     }
 }
