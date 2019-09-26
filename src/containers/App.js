@@ -54,7 +54,6 @@ function App() {
                 </div>
                 <div style={emptyDiv}></div>
                 <Lang />
-                <Cookie />
                 <Main />
                 <hr className="hr-class" />
                 <ImageSlide />
@@ -67,6 +66,7 @@ function App() {
                 {/* <hr className="hr-class" /> */}
                 {/* <OurClients /> */}
                 <Footer />
+                <Cookie />
             </div>
         </div>
     );
